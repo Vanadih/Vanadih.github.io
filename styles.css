@@ -90,7 +90,8 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
     position: relative;
     display: flex;
     align-items: center;
@@ -98,7 +99,6 @@ body {
     text-align: center;
     color: var(--white);
     overflow: hidden;
-    padding-top: 80px;
 }
 
 .hero-background {
@@ -888,8 +888,8 @@ a.cta-button.secondary:hover {
     }
 
     .hero {
-        padding-top: 100px;
-        min-height: 100vh;
+        height: calc(100vh - 100px);
+        margin-top: 100px;
     }
 
     .hero-title {
@@ -937,7 +937,8 @@ a.cta-button.secondary:hover {
 
 @media (max-width: 480px) {
     .hero {
-        padding-top: 90px;
+        height: calc(100vh - 90px);
+        margin-top: 90px;
     }
 
     .hero-title {
