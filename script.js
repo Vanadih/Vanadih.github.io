@@ -237,34 +237,4 @@ style.textContent = `
         transform: rotate(45deg) translate(-5px, -6px);
     }
 `;
-document.head.appendChild(style);
-
-// Google Calendar Appointment Scheduling function
-function openCalendarScheduling() {
-    // Check if calendar API is loaded
-    if (typeof calendar !== 'undefined' && calendar.schedulingButton) {
-        // Create a temporary button element to trigger the calendar
-        const tempButton = document.createElement('button');
-        tempButton.style.display = 'none';
-        document.body.appendChild(tempButton);
-        
-        // Load the calendar scheduling
-        calendar.schedulingButton.load({
-            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ19zonLuFce1xv2jER-kR45ykwovodYQVAFQtg36zKU0ajcbSOSPOHNLrchOSJPxvfnQksCRpkk',
-            color: '#039BE5',
-            label: 'Book an appointment',
-            target: tempButton,
-        });
-        
-        // Trigger the button click
-        tempButton.click();
-        
-        // Clean up
-        setTimeout(() => {
-            document.body.removeChild(tempButton);
-        }, 1000);
-    } else {
-        // Fallback: open the calendar URL directly
-        window.open('https://calendar.google.com/calendar/appointments/schedules/AcZssZ19zonLuFce1xv2jER-kR45ykwovodYQVAFQtg36zKU0ajcbSOSPOHNLrchOSJPxvfnQksCRpkk', '_blank');
-    }
-} 
+document.head.appendChild(style); 
