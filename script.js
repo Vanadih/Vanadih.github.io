@@ -250,7 +250,7 @@ function openCalendarScheduling() {
         
         // Load the calendar scheduling
         calendar.schedulingButton.load({
-            url: 'https://calendar.app.google/tWRsKe1jn7XpFqPN9',
+            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ19zonLuFce1xv2jER-kR45ykwovodYQVAFQtg36zKU0ajcbSOSPOHNLrchOSJPxvfnQksCRpkk',
             color: '#039BE5',
             label: 'Book an appointment',
             target: tempButton,
@@ -265,6 +265,6 @@ function openCalendarScheduling() {
         }, 1000);
     } else {
         // Fallback: open the calendar URL directly
-        window.open('https://calendar.app.google/tWRsKe1jn7XpFqPN9', '_blank');
+        window.open('https://calendar.google.com/calendar/appointments/schedules/AcZssZ19zonLuFce1xv2jER-kR45ykwovodYQVAFQtg36zKU0ajcbSOSPOHNLrchOSJPxvfnQksCRpkk', '_blank');
     }
 } 
