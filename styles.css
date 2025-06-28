@@ -206,6 +206,21 @@ body {
     color: var(--white);
 }
 
+/* Ensure links with cta-button class are properly styled */
+a.cta-button {
+    text-decoration: none;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+a.cta-button:hover {
+    text-decoration: none;
+}
+
+a.cta-button.secondary:hover {
+    text-decoration: none;
+}
+
 /* Section Headers */
 .section-header {
     text-align: center;
