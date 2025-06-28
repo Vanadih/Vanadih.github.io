@@ -1,0 +1,35 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#721c24;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#f8d7da;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg4)"/>
+  <rect x="20" y="20" width="360" height="210" fill="white" opacity="0.9" rx="10"/>
+  
+  <!-- Scissors -->
+  <path d="M 80 80 L 120 120 L 100 140 L 60 100 Z" fill="#721c24" opacity="0.7"/>
+  <path d="M 120 80 L 160 120 L 140 140 L 100 100 Z" fill="#721c24" opacity="0.7"/>
+  <circle cx="110" cy="110" r="8" fill="#721c24" opacity="0.8"/>
+  
+  <!-- Measuring tape -->
+  <rect x="200" y="70" width="120" height="8" fill="#721c24" opacity="0.6"/>
+  <rect x="200" y="70" width="120" height="8" fill="none" stroke="#721c24" stroke-width="1" opacity="0.8"/>
+  <circle cx="200" cy="74" r="4" fill="#721c24" opacity="0.8"/>
+  
+  <!-- Thread spool -->
+  <circle cx="320" cy="100" r="20" fill="#f8d7da" opacity="0.8"/>
+  <circle cx="320" cy="100" r="15" fill="white" opacity="0.9"/>
+  <circle cx="320" cy="100" r="8" fill="#721c24" opacity="0.7"/>
+  
+  <!-- Garment outline -->
+  <path d="M 150 140 L 130 180 L 170 180 L 190 140 Z" fill="none" stroke="#721c24" stroke-width="2" opacity="0.6"/>
+  <circle cx="160" cy="150" r="3" fill="#721c24" opacity="0.6"/>
+  
+  <!-- Text -->
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2D0B0C">Project #004</text>
+  <text x="200" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#721c24">Women's Tailoring</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#721c24">Enterprise</text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Muzaffarpur, Bihar</text>
+</svg> 

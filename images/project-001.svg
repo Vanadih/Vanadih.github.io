@@ -1,0 +1,25 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF575E;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#FFD580;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg1)"/>
+  <rect x="20" y="20" width="360" height="210" fill="white" opacity="0.9" rx="10"/>
+  
+  <!-- Art-themed elements -->
+  <circle cx="100" cy="80" r="15" fill="#FF575E" opacity="0.8"/>
+  <circle cx="300" cy="120" r="12" fill="#FFD580" opacity="0.8"/>
+  <circle cx="200" cy="160" r="18" fill="#2D0B0C" opacity="0.6"/>
+  
+  <!-- Paintbrush -->
+  <rect x="80" y="140" width="4" height="40" fill="#2D0B0C" opacity="0.7"/>
+  <ellipse cx="82" cy="140" rx="8" ry="4" fill="#FF575E" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2D0B0C">Project #001</text>
+  <text x="200" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FF575E">Manjusha Art</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#FF575E">Revival Center</text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Bhagalpur, Bihar</text>
+</svg> 
