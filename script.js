@@ -200,22 +200,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Form handling for CTA buttons (placeholder)
-document.querySelectorAll('.cta-button').forEach(button => {
-    button.addEventListener('click', function(e) {
-        const buttonText = this.textContent;
-        
-        if (buttonText === 'Partner With Us' || buttonText === 'Sponsor a Project') {
-            e.preventDefault();
-            // Add your form handling logic here
-            alert('Thank you for your interest! We will contact you soon.');
-        } else if (buttonText === 'Download CSR Deck') {
-            e.preventDefault();
-            // Add your download logic here
-            alert('CSR Deck download will be available soon.');
-        }
-    });
-});
+
 
 // Add CSS for active navigation state
 const style = document.createElement('style');
