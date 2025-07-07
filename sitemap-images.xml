@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://vanadihbharat.org/</loc>
+        <image:image>
+            <image:loc>https://vanadihbharat.org/images/logo.png</image:loc>
+            <image:title>Vanadih Bharat Foundation Logo</image:title>
+            <image:caption>Official logo of Vanadih Bharat Foundation</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vanadihbharat.org/images/hero.gif</image:loc>
+            <image:title>Hero Section Animation</image:title>
+            <image:caption>Empowering Rural Bharat Through Skills, Culture & Enterprise</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vanadihbharat.org/images/hero1.gif</image:loc>
+            <image:title>Hero Section Animation 2</image:title>
+            <image:caption>Building a self-reliant India where traditions thrive</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://vanadihbharat.org/projects.html</loc>
+        <image:image>
+            <image:loc>https://vanadihbharat.org/images/project-001.png</image:loc>
+            <image:title>Manjusha Art Revival Center</image:title>
+            <image:caption>Project #001: Manjusha Art Revival Center in Bhagalpur, Bihar</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vanadihbharat.org/images/project-002.png</image:loc>
+            <image:title>Handloom Weaving Cooperative</image:title>
+            <image:caption>Project #002: Handloom Weaving Cooperative in Darbhanga, Bihar</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vanadihbharat.org/images/project-004.png</image:loc>
+            <image:title>Women's Tailoring Enterprise</image:title>
+            <image:caption>Project #004: Women's Tailoring Enterprise in Muzaffarpur, Bihar</image:caption>
+        </image:image>
+    </url>
+</urlset> 
